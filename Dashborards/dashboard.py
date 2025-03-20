@@ -2,7 +2,7 @@ import json
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-
+import numpy as nygit
 #importa dados
 file= open(r'C:\Users\joaop\OneDrive\Documentos\teste vs\dados\vendas.json')
 data= json.load(file)
